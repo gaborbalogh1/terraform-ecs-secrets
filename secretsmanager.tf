@@ -1,5 +1,5 @@
 resource "aws_secretsmanager_secret" "database_password_secret" {
-  name = "/production/database/password/master"
+  name = "/production/database/password/admin"
 }
 
 resource "aws_secretsmanager_secret_version" "database_password_secret_version" {
