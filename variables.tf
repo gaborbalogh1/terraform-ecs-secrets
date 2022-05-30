@@ -7,3 +7,7 @@ variable "memory" {
   default     = "1024"
   description = "Task Memory"
 }
+
+variable "region" {
+  default = "eu-west-2"
+}

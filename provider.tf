@@ -1,6 +1,6 @@
 # AWS provider
 provider "aws" {
-  region  = "eu-west-1"
+  region  = var.region
   version = "~> 2.68"
 }
 
